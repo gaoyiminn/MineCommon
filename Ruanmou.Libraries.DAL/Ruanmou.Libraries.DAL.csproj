@@ -46,16 +46,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ruanmou.Libraries.IDAL\Ruanmou.Libraries.IDAL.csproj">
-      <Project>{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}</Project>
-      <Name>Ruanmou.Libraries.IDAL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Ruanmou.Libraries.Model\Ruanmou.Libraries.Model.csproj">
-      <Project>{a2c521e3-5a0c-4446-bde0-1b41fc834bbf}</Project>
-      <Name>Ruanmou.Libraries.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

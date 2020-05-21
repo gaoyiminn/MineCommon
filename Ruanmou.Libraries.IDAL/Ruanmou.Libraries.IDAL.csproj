@@ -44,11 +44,5 @@
     <Compile Include="IBaseDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ruanmou.Libraries.Model\Ruanmou.Libraries.Model.csproj">
-      <Project>{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}</Project>
-      <Name>Ruanmou.Libraries.Model</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

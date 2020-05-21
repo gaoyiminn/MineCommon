@@ -3,16 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Libraries.Model", "Ruanmou.Libraries.Model\Ruanmou.Libraries.Model.csproj", "{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Libraries.IDAL", "Ruanmou.Libraries.IDAL\Ruanmou.Libraries.IDAL.csproj", "{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Libraries.DAL", "Ruanmou.Libraries.DAL\Ruanmou.Libraries.DAL.csproj", "{6DF1B6CD-0FB4-458E-A634-77DD45BACC20}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAsync", "MyAsync\MyAsync.csproj", "{882685D6-7215-46F4-A839-38F3F3F3ADBE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{DF64DCD7-08DB-46C2-9BAF-F0B18785AD36}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.WebTest", "SOA.WebTest\SOA.WebTest.csproj", "{D847E5F5-0849-461C-AF23-784EF6290ABE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.Interface", "SOA.Interface\SOA.Interface.csproj", "{8A7B176E-C5CE-4C0D-A617-C3F4F801BF63}"
@@ -25,26 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2C521E3-5A0C-4446-BDE0-1B41FC834BBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07D497E8-0F75-4B45-8CB7-7CCC8F50A3FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6DF1B6CD-0FB4-458E-A634-77DD45BACC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DF1B6CD-0FB4-458E-A634-77DD45BACC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DF1B6CD-0FB4-458E-A634-77DD45BACC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DF1B6CD-0FB4-458E-A634-77DD45BACC20}.Release|Any CPU.Build.0 = Release|Any CPU
-		{882685D6-7215-46F4-A839-38F3F3F3ADBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{882685D6-7215-46F4-A839-38F3F3F3ADBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{882685D6-7215-46F4-A839-38F3F3F3ADBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{882685D6-7215-46F4-A839-38F3F3F3ADBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF64DCD7-08DB-46C2-9BAF-F0B18785AD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF64DCD7-08DB-46C2-9BAF-F0B18785AD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF64DCD7-08DB-46C2-9BAF-F0B18785AD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF64DCD7-08DB-46C2-9BAF-F0B18785AD36}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D847E5F5-0849-461C-AF23-784EF6290ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D847E5F5-0849-461C-AF23-784EF6290ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D847E5F5-0849-461C-AF23-784EF6290ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU

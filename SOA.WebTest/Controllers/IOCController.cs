@@ -20,10 +20,11 @@ namespace SOA.WebTest.Controllers
             this._userService = userService;
         }
 
-        public object Get(int id) {
+        public string Get(int id)
+        {
             //IUserService userService = ContainerFactory.BuildContainer().Resolve<IUserService>();
             //IUserService userService = new UserService();
-            return _userService.Query(id);
+            return Newtonsoft.Json.JsonConvert.SerializeObject(_userService.Query(id));
         }
     }
 }

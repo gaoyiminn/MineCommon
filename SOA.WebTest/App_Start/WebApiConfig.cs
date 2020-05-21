@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SOA.WebTest.Utility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
@@ -10,7 +11,7 @@ namespace SOA.WebTest
         public static void Register(HttpConfiguration config)
         {
             // Web API 配置和服务
-
+            config.DependencyResolver = new UnityDependencyResolver(ContainerFactory.BuildContainer());
             // Web API 路由
             config.MapHttpAttributeRoutes();
 
