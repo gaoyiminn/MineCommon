@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.Interface", "SOA.Interf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOA.Service", "SOA.Service\SOA.Service.csproj", "{2E5CA860-8D92-4B80-BD23-0A8884F416BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RuanMou", "RuanMou", "{0B5E884B-4793-42A2-99A5-0185DA44FB22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "YM.Common", "YM.Common", "{B5A91F82-7A82-4FED-917F-FF54D486C51B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{95D906F9-A2B3-46D4-8F83-401FB198A1BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +33,19 @@ Global
 		{2E5CA860-8D92-4B80-BD23-0A8884F416BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E5CA860-8D92-4B80-BD23-0A8884F416BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E5CA860-8D92-4B80-BD23-0A8884F416BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D906F9-A2B3-46D4-8F83-401FB198A1BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D906F9-A2B3-46D4-8F83-401FB198A1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D906F9-A2B3-46D4-8F83-401FB198A1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D906F9-A2B3-46D4-8F83-401FB198A1BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D847E5F5-0849-461C-AF23-784EF6290ABE} = {0B5E884B-4793-42A2-99A5-0185DA44FB22}
+		{8A7B176E-C5CE-4C0D-A617-C3F4F801BF63} = {0B5E884B-4793-42A2-99A5-0185DA44FB22}
+		{2E5CA860-8D92-4B80-BD23-0A8884F416BD} = {0B5E884B-4793-42A2-99A5-0185DA44FB22}
+		{95D906F9-A2B3-46D4-8F83-401FB198A1BF} = {B5A91F82-7A82-4FED-917F-FF54D486C51B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E58912CC-851F-4473-B082-05553108D88D}
