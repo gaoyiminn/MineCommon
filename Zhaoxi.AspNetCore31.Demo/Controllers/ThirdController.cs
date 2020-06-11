@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -11,6 +12,9 @@ using Zhaoxi.AspNetCore31.Demo.Utility;
 
 namespace Zhaoxi.AspNetCore31.Demo.Controllers
 {
+    //[TypeFilter(typeof(CustomActionCheckFilterAttribute))]
+
+    [Authorize]
     public class ThirdController : Controller
     {
 

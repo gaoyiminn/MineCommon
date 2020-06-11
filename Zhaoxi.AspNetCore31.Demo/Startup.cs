@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Autofac;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -13,6 +16,7 @@ using Microsoft.Extensions.Logging;
 using Zhaoxi.AspNetCore3_1.Interface;
 using Zhaoxi.AspNetCore3_1.Service;
 using Zhaoxi.AspNetCore31.Demo.Utility;
+using Zhaoxi.EntityFrameworkCore31.Model;
 
 namespace Zhaoxi.AspNetCore31.Demo
 {
@@ -32,7 +36,20 @@ namespace Zhaoxi.AspNetCore31.Demo
             services.AddControllersWithViews(option =>
             {
                 option.Filters.Add<CustomExceptionFilterAttribute>();
-            });
+            }).AddRazorRuntimeCompilation();//修改cshtml后能自动编译;
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options => {
+                    options.LoginPath = new PathString("/Fourth/Login");
+                    options.AccessDeniedPath = new PathString("/Home/Privacy");
+                });
+
+            services.AddScoped<DbContext, JDDbContext>();
+
+            //services.AddDbContext<JDDbContext>(options => {
+            //    options.UseSqlServer(Configuration.GetConnectionString("JDDbConnection"));
+            //});
+
             //services.AddScoped(typeof(CustomExceptionFilterAttribute));
         }
 
@@ -69,7 +86,7 @@ namespace Zhaoxi.AspNetCore31.Demo
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
