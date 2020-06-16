@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.AspNetCore3_1.Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.AspNetCore31.Demo", "Zhaoxi.AspNetCore31.Demo\Zhaoxi.AspNetCore31.Demo.csproj", "{AE4C1649-D410-4E11-9A15-0D144671783D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{97FCDBDE-EE65-43A3-9754-8AB0C388F4A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{97FCDBDE-EE65-43A3-9754-8AB0C388F4A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.EntityFrameworkCore31.Model", "Zhaoxi.EntityFrameworkCore31.Model\Zhaoxi.EntityFrameworkCore31.Model.csproj", "{B94FA58F-2BE8-4D09-B5D1-45C741486D45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zhaoxi.EntityFrameworkCore31.Model", "Zhaoxi.EntityFrameworkCore31.Model\Zhaoxi.EntityFrameworkCore31.Model.csproj", "{B94FA58F-2BE8-4D09-B5D1-45C741486D45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zhaoxi.NetCore31WebApiDemo", "Zhaoxi.NetCore31WebApiDemo\Zhaoxi.NetCore31WebApiDemo.csproj", "{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{B94FA58F-2BE8-4D09-B5D1-45C741486D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B94FA58F-2BE8-4D09-B5D1-45C741486D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B94FA58F-2BE8-4D09-B5D1-45C741486D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{AE4C1649-D410-4E11-9A15-0D144671783D} = {8C2C27C1-7C52-4E1E-A7E4-06CB9AE9FE9A}
 		{97FCDBDE-EE65-43A3-9754-8AB0C388F4A0} = {0B5E884B-4793-42A2-99A5-0185DA44FB22}
 		{B94FA58F-2BE8-4D09-B5D1-45C741486D45} = {8C2C27C1-7C52-4E1E-A7E4-06CB9AE9FE9A}
+		{E7B91CCD-DC84-4247-B36D-70E7DFB5DC7F} = {8C2C27C1-7C52-4E1E-A7E4-06CB9AE9FE9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E58912CC-851F-4473-B082-05553108D88D}
