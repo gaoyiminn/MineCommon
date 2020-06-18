@@ -45,7 +45,7 @@ namespace Zhaoxi.AspNetCore31.Demo
                 });
 
             services.AddScoped<DbContext, JDDbContext>();
-
+            services.AddScoped<IUserService, UserService>();
             //services.AddDbContext<JDDbContext>(options => {
             //    options.UseSqlServer(Configuration.GetConnectionString("JDDbConnection"));
             //});

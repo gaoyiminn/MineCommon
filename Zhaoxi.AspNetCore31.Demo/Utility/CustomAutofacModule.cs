@@ -32,7 +32,7 @@ namespace Zhaoxi.AspNetCore31.Demo.Utility
             containerBuilder.RegisterType<TestServiceB>().As<ITestServiceB>();
             containerBuilder.RegisterType<TestServiceD>().As<ITestServiceD>();
             containerBuilder.RegisterType<TestServiceE>().As<ITestServiceE>();
-            containerBuilder.RegisterType<IUserService>().As<UserService>();
+            containerBuilder.RegisterType<UserService>().As<IUserService>();
 
         }
     }
